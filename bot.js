@@ -28,7 +28,7 @@ client.on('message', async (msg) => {
   const embed = new Discord.RichEmbed();
     embed.setColor("RANDOM");
     embed.setTitle("🌈 Multicolor bot by **limee#8911**");
-    embed.setDescription("A multicolor bot az 5 másodpercenként váltogatja egy megadott rang színét.\nA rangot, és a szerver ID-t a fájlban lehet átírni.\nAzért 5 másodpercre van rakva a(z) váltogatás ideje, hogy ne kapj API-bant.\n\nA GitHub repo folyamatosan frissítve lesz.\nA botba még sok fejlesztés be fog kerülni.\nA multicolor botot nem úgy kell érteni mint egy rainbow botot.\nNem színárnyalatban váltja a színeket, hanem random.\nPersze lesz rainbow bot is teljesen ingyen!\n\nAz esetleges hibákat jelentsétek nekem Discordon. (**limee#8911**)\nKérlek olvasd el a Github reponak a leírását ahhoz, hogy ne kapj API-bant.\nJó szórakozást.")
+    embed.setDescription("A multicolor bot az 5 másodpercenként váltogatja egy megadott rang színét.\nA rangot, és a szerver ID-t a fájlban lehet átírni.\nAzért 5 másodpercre van rakva a(z) váltogatás ideje, hogy ne kapj API-bant.\n\nA GitHub repo folyamatosan frissítve lesz.\nA botba még sok fejlesztés be fog kerülni.\nA multicolor botot nem úgy kell érteni mint egy rainbow botot.\nNem színárnyalatban váltja a színeket, hanem random.\nPersze lesz rainbow bot is teljesen ingyen!\n\nAz esetleges hibákat jelentsétek nekem Discordon. (**limee#8911**)\nKérlek olvasd el a Github reponak a leírását ahhoz, hogy ne kapj API-bant.\nJó szórakozást.");
    msg.channel.send(embed); 
 }});
 
