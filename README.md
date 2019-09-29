@@ -14,6 +14,7 @@ Jó szórakozást.
 
 # Mik szükségesek?
 Telepítsd fel a `node.js`-t a számítógépedre, majd rakd fel a `discord.js`-t.
+Discord.js feltelepítése: Nyiss egy `PowerShell`-t, majd írd be: `npm init`, aztán `npm install discord.js --save`
 
 # Hogyan tudom lekérni a szerver id-t?
 Bal oldalt kattints jobb klikkel a szerver ikonjára, majd menj a `Copy ID/ID másolása` lehetőségre.
