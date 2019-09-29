@@ -26,6 +26,9 @@ A Spelfy bottal is le tudod kérni az ID-t, csak simán írd be hogy `s.roleinfo
 # Hol tudom a botot 0/24 hostolni?
 Én a herokut ajánlom, de a Glitch is megfelelő csak ott folyamatosan pingelni kell a projektet.
 
+# Hogyan tudom a botot elindítani?
+Először is, a `config.json`-ben írd át a token-t, majd írd be hogy `node bot.js`
+
 # Hogyan ne kapjak API-bant?
 A(z) `1 * 5000` részt a kódban ne írd át. Az lényegében azt jelenti, hogy 5 másodpercenként váltja a rang színét. Ha annál gyorsabbra állítod
 nagy valószínűséggel API-bant fogsz kapni.
