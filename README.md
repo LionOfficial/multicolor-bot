@@ -35,7 +35,7 @@ nagy valószínűséggel API-bant fogsz kapni.
 
 # Mindent jól beírtam, de nem változik a szín
 Ellenőrizd, hogy a bot rendelkezik-e nagyobb ranggal a megadott rangnál.
-Ha nagyobb rangja van, ellenőrizd, hogy van-e `SZEREPEK_KEZELÉSE` joga.
+Ha nagyobb rangja van, ellenőrizd, hogy van-e `SZEREPEK_KEZELÉSE` joga a botnak.
 
 # Spelfy Discord Bot
 Bot meghívó link: <a href="https://discordapp.com/oauth2/authorize?client_id=588420113120886804&scope=bot&permissions=2146958847"> kattints ide</a>
