@@ -10,6 +10,7 @@ client.on('ready', () => {
 });
 
 client.on('message', async (msg) => {
+  if (!msg.member.hasPermission("ADMINISTRATOR")) return msg.channel.send(`:x: Nincs jogod ehhez. A parancsot csak **adminisztrátor** joggal rendelkező tudja használni.`);
   if (msg.content === prefix + 'multicolor') { // A parancs a(z) a következő lesz: prefix + multicolor (például: !multicolor) - ha a prefix !-re van állítva
   const szerver = client.guilds.get("szerverID"); // ID alapján megkeresi a szervert
   if (!szerver) return console.log('Hiba > A szervert nem találom.') //Ha a szervert nem találja, kilogolja a consoleba a hibaüzenetet
