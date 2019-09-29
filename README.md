@@ -33,6 +33,9 @@ Először is, a `config.json`-ben írd át a token-t, majd írd be hogy `node bo
 A(z) `1 * 5000` részt a kódban ne írd át. Az lényegében azt jelenti, hogy 5 másodpercenként váltja a rang színét. Ha annál gyorsabbra állítod
 nagy valószínűséggel API-bant fogsz kapni.
 
+# Mindent jól beírtam, de nem változik a szín
+Ellenőrizd, hogy a bot rendelkezik-e nagyobb ranggal a megadott rangnál.
+
 # Spelfy Discord Bot
 Bot meghívó link: <a href="https://discordapp.com/oauth2/authorize?client_id=588420113120886804&scope=bot&permissions=2146958847"> kattints ide</a>
 Weboldalunk: <a href="https://spelfy.tk"> kattints ide</a>
